@@ -1,5 +1,5 @@
 using GeekShopping.ProductAPI;
-using GeekShopping.ProductAPI.Data;
+using GeekShopping.ProductAPI.Models.Context.v1;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

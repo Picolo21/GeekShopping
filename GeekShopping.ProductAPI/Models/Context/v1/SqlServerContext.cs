@@ -1,7 +1,6 @@
-﻿using GeekShopping.ProductAPI.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace GeekShopping.ProductAPI.Data;
+namespace GeekShopping.ProductAPI.Models.Context.v1;
 
 public class SqlServerContext : DbContext
 {
